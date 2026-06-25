@@ -1,5 +1,5 @@
 {
-  "name": "playwright",
+  "name": "playwright-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,13 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.61.1",
+<<<<<<< HEAD
     "@types/node": "^26.0.1"
   },
   "dependencies": {
     "playwright-bdd": "^9.2.0"
+=======
+    "@types/node": "^26.0.0"
+>>>>>>> 8561aaac2391053cc31e7f8411ac4c9d93640720
   }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { defineConfig, devices } from '@playwright/test';
 
 /**
@@ -77,3 +78,17 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
+=======
+// playwright.config.ts
+import { defineConfig } from '@playwright/test';
+import { defineBddConfig } from 'playwright-bdd';
+
+const testDir = defineBddConfig({
+  features: 'features/*.feature',
+  steps: 'steps/*.ts',
+});
+
+export default defineConfig({
+  testDir,
+});
+>>>>>>> 8561aaac2391053cc31e7f8411ac4c9d93640720
